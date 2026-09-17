@@ -1,0 +1,21 @@
+# Same as requirements.txt, minus torch/torchvision — Colab ships a
+# GPU-matched build of both preinstalled, and reinstalling from here
+# can clobber that with a mismatched CPU wheel.
+
+numpy
+pillow
+tqdm
+requests
+gdown
+python-dotenv
+
+ftfy
+regex
+git+https://github.com/openai/CLIP.git
+
+open_clip_torch
+transformers
+
+pandas
+scikit-learn
+matplotlib

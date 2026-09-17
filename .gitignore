@@ -1,0 +1,19 @@
+# data & artifacts (pulled via scripts/, never committed)
+data/
+checkpoints/
+eval/runs/
+
+# secrets
+.env
+scripts/checkpoint_urls.json
+
+# python
+__pycache__/
+*.pyc
+myenv/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

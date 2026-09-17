@@ -1,0 +1,22 @@
+numpy
+pillow
+tqdm
+requests
+gdown
+python-dotenv
+
+# CLIP-based image retrieval + fine-tuning
+torch
+torchvision
+ftfy
+regex
+git+https://github.com/openai/CLIP.git
+
+# extra model families for eval/model_agnostic_retrieval_eval.py
+open_clip_torch
+transformers
+
+# reporting / analysis
+pandas
+scikit-learn
+matplotlib

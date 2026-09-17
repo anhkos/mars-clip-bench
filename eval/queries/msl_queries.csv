@@ -1,0 +1,101 @@
+class_id,class_name,query_text
+0,APXS,a photo of the APXS instrument on a Mars rover
+0,APXS,a photograph of an alpha particle x-ray spectrometer on a rover
+0,APXS,an image of the APXS sensor deployed on Martian rock
+0,APXS,a Mars rover photo showing the APXS instrument
+1,APXS calibration target,a photo of the APXS calibration target
+1,APXS calibration target,a photograph of a small calibration disc for the APXS instrument
+1,APXS calibration target,an image of the APXS calibration reference target on a rover
+1,APXS calibration target,a Mars rover photo showing the APXS calibration target
+2,Artifact,a photo with a visual artifact or camera distortion
+2,Artifact,a photograph showing image noise or a camera artifact on Mars
+2,Artifact,an image with digital distortion or visual anomaly
+2,Artifact,a photo showing compression artifacts or sensor noise
+3,ChemCam calibration target,a photo of the ChemCam calibration target
+3,ChemCam calibration target,a photograph of the ChemCam reference calibration disc
+3,ChemCam calibration target,an image of the ChemCam laser calibration target on a rover
+3,ChemCam calibration target,a Mars rover photo showing the ChemCam calibration target
+4,CheMin inlet open,a photo of the CheMin instrument inlet open on a rover
+4,CheMin inlet open,a photograph of the CheMin sample inlet port open
+4,CheMin inlet open,an image of the open inlet of the CheMin mineralogy instrument
+4,CheMin inlet open,a Mars rover photo showing the CheMin inlet open
+5,Close-up rock,a photo of a close-up Martian rock
+5,Close-up rock,a photograph of a rock surface on Mars taken up close
+5,Close-up rock,an image of the detailed texture of a Martian rock
+5,Close-up rock,a close-up photo of a rock on the surface of Mars
+6,Distant landscape,a photo of a distant Martian landscape
+6,Distant landscape,a photograph of the far Martian terrain and hills
+6,Distant landscape,an image of a wide view of the Mars landscape in the distance
+6,Distant landscape,a Mars rover photo showing a distant rocky landscape
+7,Drill,a photo of the drill on a Mars rover
+7,Drill,a photograph of the Curiosity rover drill mechanism
+7,Drill,an image of the rover drill bit and turret
+7,Drill,a photo of the Mars rover drilling hardware
+7,Drill,a close-up photo of a power drill on the Curiosity rover
+8,Drill hole,a photo of a drill hole in Martian rock
+8,Drill hole,a photograph of a circular borehole drilled into Mars bedrock
+8,Drill hole,an image of a drill sample hole in a Martian rock surface
+8,Drill hole,a photo of a hole drilled by the Curiosity rover into rock
+8,Drill hole,a close-up photo of a borehole in Martian stone
+9,DRT,a photo of the dust removal tool on a Mars rover
+9,DRT,a photograph of the DRT wire brush on the rover arm
+9,DRT,an image of the dust removal tool attached to a rover
+9,DRT,a Mars rover photo showing the dust removal tool brush
+10,DRT spot,a photo of a rock surface cleaned by the dust removal tool
+10,DRT spot,a photograph of a brushed circular area on a Martian rock
+10,DRT spot,an image of a DRT brushed spot on a Mars rock surface
+10,DRT spot,a close-up photo of a freshly brushed rock surface on Mars
+11,Float,a photo of a loose rock on the Martian surface
+11,Float,a photograph of an isolated rock sitting on Martian soil
+11,Float,an image of a displaced rock on the surface of Mars
+11,Float,a Mars rover photo showing a loose float rock on soil
+12,Ground,a photo of the Martian ground with soil and pebbles
+12,Ground,a photograph of Mars soil and small rocks on the surface
+12,Ground,an image of sandy Martian ground with gravel
+12,Ground,a close-up photo of the Martian surface dirt and pebbles
+12,Ground,a photo of dusty Martian soil and small stones
+13,Horizon,a photo of the Martian horizon and sky
+13,Horizon,a photograph of the Martian skyline
+13,Horizon,an image of the horizon on Mars with sky above
+13,Horizon,a wide photo showing the edge of the Martian surface meeting the sky
+13,Horizon,a Mars rover photo looking out toward the distant horizon
+14,Inlet,a photo of an instrument inlet on a Mars rover
+14,Inlet,a photograph of a sample inlet port on the Curiosity rover
+14,Inlet,an image of the inlet opening on a Mars rover instrument
+14,Inlet,a Mars rover photo showing an instrument intake port
+15,Layers,a photo of layered rock formations on Mars
+15,Layers,a photograph of sedimentary rock layers on the Martian surface
+15,Layers,an image of stratified rock strata on Mars
+15,Layers,a close-up photo of geological layers in Martian rock
+16,Light-toned veins,a photo of bright mineral veins in Martian rock
+16,Light-toned veins,a photograph of white calcium sulfate veins in Mars rock
+16,Light-toned veins,an image of light-colored mineral deposits running through dark rock
+16,Light-toned veins,a close-up photo of bright veins cutting through Martian bedrock
+17,MAHLI,a photo of the MAHLI camera on a Mars rover
+17,MAHLI,a photograph of the Mars Hand Lens Imager on a rover arm
+17,MAHLI,an image of the MAHLI close-up camera instrument
+17,MAHLI,a Mars rover photo showing the MAHLI lens and camera body
+18,MAHLI calibration target,a photo of the MAHLI calibration target
+18,MAHLI calibration target,a photograph of the Mars Hand Lens Imager calibration reference
+18,MAHLI calibration target,an image of the MAHLI calibration disc on the rover
+18,MAHLI calibration target,a Mars rover photo showing the MAHLI calibration reference
+19,Mastcam,a photo of the Mastcam camera on a Mars rover
+19,Mastcam,a photograph of the mast-mounted camera system on Curiosity
+19,Mastcam,an image of the Mastcam camera assembly on the rover mast
+19,Mastcam,a Mars rover photo showing the Mastcam camera lenses
+20,Mastcam calibration target,a photo of the Mastcam calibration target
+20,Mastcam calibration target,a photograph of the Mastcam color calibration reference
+20,Mastcam calibration target,an image of the Mastcam calibration disc with color chips
+20,Mastcam calibration target,a Mars rover photo showing the Mastcam calibration target
+21,Nearby surface,a photo of the nearby Martian surface with rocks and terrain
+21,Nearby surface,a photograph of the immediate surrounding terrain on Mars
+21,Nearby surface,an image of the Martian ground and nearby rocks
+21,Nearby surface,a Mars rover photo showing the ground and rocks nearby
+23,Observation tray,a photo of the rover observation tray
+23,Observation tray,a photograph of the flat observation tray on a Mars rover
+23,Observation tray,an image of the rover tray used for examining samples
+23,Observation tray,a Mars rover photo showing the observation tray surface
+24,Portion box,a photo of the rover sample portion box
+24,Portion box,a photograph of the sample storage box on a Mars rover
+24,Portion box,an image of the portion box container on the Curiosity rover
+24,Portion box,a Mars rover photo showing the portion box storage unit

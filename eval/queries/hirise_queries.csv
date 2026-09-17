@@ -1,0 +1,34 @@
+class_id,class_name,query_text
+0,other,a photo of other Mars terrain with no notable features
+0,other,a photo of a generic Martian surface with no landmarks
+0,other,a photo of unremarkable Mars ground from orbit
+0,other,a satellite image of flat featureless Martian terrain
+1,crater,a photo of a crater on Mars
+1,crater,a photo of a circular impact crater on the Martian surface
+1,crater,a satellite image of a bowl-shaped crater on Mars
+1,crater,a photo of a round depression from a meteorite impact on Mars
+1,crater,a photo of a Mars impact crater with raised rim and bowl interior
+2,dark dune,a photo of a dark dune on Mars
+2,dark dune,a photo of dark sand dunes on the Martian surface
+2,dark dune,a satellite image of dark basaltic dunes on Mars
+2,dark dune,a photo of dark wind-blown sand dunes on Mars from above
+3,slope streak,a photo of a slope streak on Mars
+3,slope streak,a photo of a dark streak running down a Martian slope
+3,slope streak,a satellite image of a long dark streak on a Mars hillside
+3,slope streak,a photo of a dark flow streak on a Martian incline from orbit
+4,bright dune,a photo of a bright dune on Mars
+4,bright dune,a photo of light-colored sand dunes on the Martian surface
+4,bright dune,a satellite image of bright wind-formed dunes on Mars
+4,bright dune,a photo of pale sandy dunes on Mars seen from above
+5,impact ejecta,a photo of impact ejecta on Mars
+5,impact ejecta,a photo of debris ejected from a Mars impact crater
+5,impact ejecta,a satellite image of crater ejecta patterns on the Martian surface
+5,impact ejecta,a photo of material blasted outward from a Mars crater
+6,swiss cheese,a photo of swiss cheese terrain on Mars
+6,swiss cheese,a photo of pitted swiss cheese carbon dioxide ice on Mars south pole
+6,swiss cheese,a satellite image of swiss cheese shaped pits in Martian polar ice
+6,swiss cheese,a photo of irregular holes eroded into Martian dry ice from above
+7,spider,a photo of a spider on Mars
+7,spider,a photo of a Mars spider formation with radial channels
+7,spider,a satellite image of spider-shaped gas venting channels on the Martian south pole
+7,spider,a photo of radial dendritic spider channels carved in Martian polar terrain
