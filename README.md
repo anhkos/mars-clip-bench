@@ -10,7 +10,7 @@ end up committed to git history.
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/<your-username>/mars-clip-bench.git
+   git clone https://github.com/anhkos/mars-clip-bench.git
    cd mars-clip-bench
    ```
 
