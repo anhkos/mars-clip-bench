@@ -113,6 +113,15 @@ the runtime's local disk is wiped every time the session disconnects, so
 `data/`, `checkpoints/`, and `eval/runs/` should live on Google Drive instead
 or you'll re-download/re-encode everything from scratch each session.
 
+> **These are notebook cells, not runnable code in this file.** Go to
+> [colab.research.google.com](https://colab.research.google.com), create a
+> notebook there, and paste each block below into its own cell. Do **not**
+> use a "Run Cell" button that some editors (e.g. VS Code) show above these
+> fenced code blocks inside this README — that runs them locally with a
+> plain Python kernel, which doesn't understand the `!`/`%` magic syntax
+> below and fails with `SyntaxError: invalid syntax` on the `!`. That
+> syntax only works inside a real Jupyter/Colab notebook cell.
+
 Paste these as separate cells in a new notebook:
 
 **1. Turn on a GPU runtime** — `Runtime → Change runtime type → T4 GPU` (or
