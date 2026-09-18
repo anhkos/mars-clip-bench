@@ -249,6 +249,55 @@ if one exists — today's query CSVs don't have it (everything is template-style
 so this is a no-op until real-scientist-phrased "authentic" queries get added
 to those files, at which point this flag starts working with no code changes.
 
+### Running your assigned model group
+
+If the team is splitting model families across people, you only need to run
+your own group's commands below — the script doesn't care what anyone else
+ran. Do the one-time setup first (clone → venv → `pip install -r requirements.txt`
+→ `python scripts/download_data.py --dataset all` → `python finetune/make_hirise_splits.py`),
+then:
+
+**OpenCLIP**
+```bash
+python eval/model_agnostic_retrieval_eval.py --model open_clip --model-id ViT-B-32 --pretrained laion2b_s34b_b79k --dataset msl
+python eval/model_agnostic_retrieval_eval.py --model open_clip --model-id ViT-B-32 --pretrained laion2b_s34b_b79k --dataset hirise
+```
+
+**SigLIP2**
+```bash
+python eval/model_agnostic_retrieval_eval.py --model siglip --model-id google/siglip2-base-patch16-224 --dataset msl
+python eval/model_agnostic_retrieval_eval.py --model siglip --model-id google/siglip2-base-patch16-224 --dataset hirise
+```
+
+**RemoteCLIP + GeoRSCLIP**
+```bash
+python scripts/download_remote_sensing_checkpoints.py   # one-time, downloads both
+
+python eval/model_agnostic_retrieval_eval.py --model open_clip --model-id ViT-B-32 --pretrained none --checkpoint checkpoints/remoteclip_vit_b32.pt --dataset msl
+python eval/model_agnostic_retrieval_eval.py --model open_clip --model-id ViT-B-32 --pretrained none --checkpoint checkpoints/remoteclip_vit_b32.pt --dataset hirise
+
+python eval/model_agnostic_retrieval_eval.py --model open_clip --model-id ViT-B-32 --pretrained none --checkpoint checkpoints/georsclip_vit_b32.pt --dataset msl
+python eval/model_agnostic_retrieval_eval.py --model open_clip --model-id ViT-B-32 --pretrained none --checkpoint checkpoints/georsclip_vit_b32.pt --dataset hirise
+```
+
+**DINOv2**
+```bash
+python eval/model_agnostic_retrieval_eval.py --model dinov2 --model-id facebook/dinov2-base --dataset msl
+python eval/model_agnostic_retrieval_eval.py --model dinov2 --model-id facebook/dinov2-base --dataset hirise
+```
+
+**CLIP (zero-shot and fine-tuned)**
+```bash
+python eval/model_agnostic_retrieval_eval.py --model clip --model-id ViT-B/32 --dataset msl
+python eval/model_agnostic_retrieval_eval.py --model clip --model-id ViT-B/32 --checkpoint checkpoints/clip_finetuned.pt --dataset msl
+python eval/model_agnostic_retrieval_eval.py --model clip --model-id ViT-B/32 --checkpoint checkpoints/hirise_clip_finetuned.pt --dataset hirise
+```
+
+Each run prints its `SUMMARY` to the console and writes per-query detail to
+`eval/runs/<model>_<model-id>_<dataset>_<mode>_results.csv` — once every
+group has run theirs, all the result CSVs sit side by side in `eval/runs/`
+for comparison.
+
 ## Project structure
 
 ```
