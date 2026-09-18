@@ -210,25 +210,44 @@ raw datasets are public and the HiRISE splits are regenerated deterministically.
 ## Benchmarking
 
 One script covers every model family, with the exact same metrics
-(P@k, R@k, MAP, NDCG@10) used in `reports/`:
+(`eval/metrics.py`: P@k, R@k, MAP, NDCG@10 macro-averaged **by class**, plus a
+majority-class baseline P@1 for context — HiRISE's "other" class alone is a
+large share of the corpus, so watch for a model whose P@1 isn't well above
+that baseline):
 
 ```bash
 # zero-shot baselines
 python eval/model_agnostic_retrieval_eval.py --model clip --model-id ViT-B/32
 python eval/model_agnostic_retrieval_eval.py --model open_clip --model-id ViT-L-14 --pretrained openai
-python eval/model_agnostic_retrieval_eval.py --model siglip --model-id google/siglip-so400m-patch14-384
+python eval/model_agnostic_retrieval_eval.py --model siglip --model-id google/siglip2-base-patch16-224
 
 # fine-tuned
 python eval/model_agnostic_retrieval_eval.py --model clip --model-id ViT-B/32 --checkpoint checkpoints/clip_finetuned.pt
 
 # HiRISE instead of MSL
 python eval/model_agnostic_retrieval_eval.py --model clip --model-id ViT-B/32 --dataset hirise --checkpoint checkpoints/hirise_clip_finetuned.pt
+
+# RemoteCLIP / GeoRSCLIP -- remote-sensing-adapted CLIP variants, loaded from a
+# raw checkpoint (--pretrained none) instead of an open_clip pretrained tag.
+# One-time download first:
+python scripts/download_remote_sensing_checkpoints.py
+python eval/model_agnostic_retrieval_eval.py --model open_clip --model-id ViT-B-32 --pretrained none --checkpoint checkpoints/remoteclip_vit_b32.pt
+python eval/model_agnostic_retrieval_eval.py --model open_clip --model-id ViT-B-32 --pretrained none --checkpoint checkpoints/georsclip_vit_b32.pt
+
+# DINOv2 -- vision-only, no text encoder, so it only supports image-to-image
+# retrieval (auto-selected; text2image raises a clear error for this model)
+python eval/model_agnostic_retrieval_eval.py --model dinov2 --model-id facebook/dinov2-base --dataset hirise
 ```
 
-Results land in `eval/runs/<model>_<model-id>_<dataset>_results.csv`, per-query
-and macro-averaged. Image embeddings are cached per model spec under
-`eval/runs/embedding_cache/` so reruns are fast and never cross-contaminate
-between model families.
+Per-query results land in `eval/runs/<model>_<model-id>_<dataset>_<mode>_results.csv`;
+the macro-averaged summary and majority-class baseline print to the console.
+Image embeddings are cached per model spec under `eval/runs/embedding_cache/`
+so reruns are fast and never cross-contaminate between model families.
+
+`--query-type authentic` filters `eval/queries/*.csv` by a `query_type` column
+if one exists — today's query CSVs don't have it (everything is template-style),
+so this is a no-op until real-scientist-phrased "authentic" queries get added
+to those files, at which point this flag starts working with no code changes.
 
 ## Project structure
 
@@ -237,18 +256,20 @@ mars-clip-bench/
 ├── requirements.txt / requirements-colab.txt
 ├── .env.example                   # copy to .env; only needed for gated HF models
 ├── scripts/
-│   ├── download_data.py           # pulls both datasets from Zenodo
-│   ├── download_checkpoints.py    # pulls .pt files from cloud storage
+│   ├── download_data.py                        # pulls both datasets from Zenodo
+│   ├── download_checkpoints.py                 # pulls our .pt files from cloud storage
+│   ├── download_remote_sensing_checkpoints.py  # pulls public RemoteCLIP/GeoRSCLIP checkpoints
 │   └── checkpoint_urls.example.json
 ├── data/                          # gitignored — populated by download_data.py
-├── checkpoints/                   # gitignored — populated by download_checkpoints.py
+├── checkpoints/                   # gitignored — populated by the download scripts above
 ├── finetune/
 │   ├── finetune_clip.py
 │   ├── finetune_clip_hirise.py
 │   └── make_hirise_splits.py
 ├── eval/
-│   ├── model_agnostic_retrieval_eval.py
-│   ├── queries/                   # committed — small CSV query sets
-│   └── runs/                      # gitignored — result CSVs + embedding cache
+│   ├── model_agnostic_retrieval_eval.py   # clip / open_clip / siglip / dinov2, one script
+│   ├── metrics.py                         # shared P@k/R@k/MAP/NDCG@10 + majority-class baseline
+│   ├── queries/                           # committed — small CSV query sets
+│   └── runs/                              # gitignored — result CSVs + embedding cache
 └── reports/                       # committed — result summaries from the original repo
 ```

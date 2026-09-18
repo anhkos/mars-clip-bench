@@ -15,6 +15,7 @@ git+https://github.com/openai/CLIP.git
 # extra model families for eval/model_agnostic_retrieval_eval.py
 open_clip_torch
 transformers
+huggingface_hub
 
 # reporting / analysis
 pandas

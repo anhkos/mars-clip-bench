@@ -15,6 +15,7 @@ git+https://github.com/openai/CLIP.git
 
 open_clip_torch
 transformers
+huggingface_hub
 
 pandas
 scikit-learn
