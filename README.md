@@ -76,6 +76,15 @@ Both are public Zenodo releases from Wagstaff et al. (JPL)
 | MSL (Curiosity rover surface images) | Wagstaff, Lu, Stanboli et al. | [10.5281/zenodo.1049137](https://doi.org/10.5281/zenodo.1049137) |
 | HiRISE (orbital landmark images) | Wagstaff et al. | [10.5281/zenodo.2538136](https://doi.org/10.5281/zenodo.2538136) |
 
+**Sanity check:** `load_msl_dataset()`/`load_hirise_dataset()` in `eval/model_agnostic_retrieval_eval.py`
+should always print `6691 images` for MSL and `10433 images` for HiRISE. HiRISE's
+`labels-map-proj-v3.txt` lists both the original images and their augmented
+copies (rotated/flipped/brightness-jittered, filename suffixes like `-r90`,
+`-fv`, `-brt`) together — `load_hirise_dataset()` filters those out, so if you
+ever see a much larger HiRISE image count than 10,433, that filter broke and
+the corpus is padded with near-duplicates, which makes retrieval look
+artificially easier than it is.
+
 ## Setup
 
 ```bash

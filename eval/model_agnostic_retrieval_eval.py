@@ -268,6 +268,22 @@ def load_msl_dataset(root_dir="data/msl"):
     return paths, np.array(labels)
 
 
+HIRISE_AUG_SUFFIXES = {"r90", "r180", "r270", "fv", "fh", "brt"}
+
+
+def is_hirise_augmented(filename):
+    """True for HiRISE's rotated/flipped/brightness-jittered copies (e.g. *-r90.jpg).
+
+    labels-map-proj-v3.txt lists both the ~10,433 original images and their
+    augmented copies together. finetune_clip_hirise.py already excludes these
+    when building its corpus; this loader has to match that or retrieval gets
+    evaluated against a corpus padded with near-duplicate rotated copies of
+    the same image, which makes retrieval look artificially easier.
+    """
+    stem = Path(filename).stem
+    return stem.split("-")[-1] in HIRISE_AUG_SUFFIXES
+
+
 def load_hirise_dataset(root_dir="data/hirise"):
     labels_file = Path(root_dir) / "labels-map-proj-v3.txt"
     paths, labels = [], []
@@ -276,7 +292,10 @@ def load_hirise_dataset(root_dir="data/hirise"):
             parts = line.strip().split()
             if len(parts) != 2:
                 continue
-            full_path = Path(root_dir) / "map-proj-v3" / parts[0]
+            filename = parts[0]
+            if is_hirise_augmented(filename):
+                continue
+            full_path = Path(root_dir) / "map-proj-v3" / filename
             if full_path.exists():
                 paths.append(str(full_path))
                 labels.append(int(parts[1]))
