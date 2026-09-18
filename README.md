@@ -18,8 +18,10 @@ end up committed to git history.
    ```bash
    python -m venv .venv
    source .venv/bin/activate        # Windows: .venv\Scripts\activate
-   pip install -r requirements.txt  # in Colab, use requirements-colab.txt instead
+   pip install -r requirements.txt
    ```
+   No local GPU? See **[Running in Google Colab](#running-in-google-colab)**
+   below for the full notebook-cell walkthrough instead of steps 1-2 here.
 
 3. **Download the datasets** (public Zenodo releases, no auth needed)
    ```bash
@@ -102,6 +104,89 @@ cp scripts/checkpoint_urls.example.json scripts/checkpoint_urls.json
 # edit checkpoint_urls.json with real shareable links, then:
 python scripts/download_checkpoints.py
 ```
+
+## Running in Google Colab
+
+Everything above works in Colab, with two differences: `torch`/`torchvision`
+come preinstalled (don't reinstall them — use `requirements-colab.txt`), and
+the runtime's local disk is wiped every time the session disconnects, so
+`data/`, `checkpoints/`, and `eval/runs/` should live on Google Drive instead
+or you'll re-download/re-encode everything from scratch each session.
+
+Paste these as separate cells in a new notebook:
+
+**1. Turn on a GPU runtime** — `Runtime → Change runtime type → T4 GPU` (or
+better, if you have Colab Pro) — *before* running anything else. Then verify:
+
+```python
+!nvidia-smi
+```
+
+**2. Mount Drive and clone the repo**
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+
+%cd /content
+!git clone https://github.com/anhkos/mars-clip-bench.git
+%cd mars-clip-bench
+```
+
+**3. Install dependencies** (Colab already has torch — this skips it)
+
+```python
+!pip install -q -r requirements-colab.txt
+```
+
+**4. Point data/checkpoints/eval-runs at Drive so they survive disconnects**
+
+```python
+import os
+DRIVE_ROOT = "/content/drive/MyDrive/mars-clip-bench-data"
+for sub in ("data", "checkpoints", "eval_runs"):
+    os.makedirs(f"{DRIVE_ROOT}/{sub}", exist_ok=True)
+
+!rm -rf data checkpoints eval/runs
+!ln -s {DRIVE_ROOT}/data data
+!ln -s {DRIVE_ROOT}/checkpoints checkpoints
+!ln -s {DRIVE_ROOT}/eval_runs eval/runs
+```
+
+After this, `data/`, `checkpoints/`, and `eval/runs/` are symlinks into your
+Drive. Downloads and results persist across sessions — re-running this cell
+in a fresh session re-links to what's already there instead of re-downloading.
+
+**5. Download data and checkpoints** (same commands as local setup, just `!`-prefixed)
+
+```python
+!python scripts/download_data.py --dataset all
+!python finetune/make_hirise_splits.py
+```
+
+```python
+# after copying scripts/checkpoint_urls.example.json to scripts/checkpoint_urls.json
+# and filling in real links (either edit it on Drive directly, or upload it):
+!python scripts/download_checkpoints.py
+```
+
+**6. Fine-tune or benchmark** — identical commands to the local instructions below,
+just `!`-prefixed:
+
+```python
+!python finetune/finetune_clip.py
+!python eval/model_agnostic_retrieval_eval.py --model siglip --model-id google/siglip-so400m-patch14-384
+```
+
+**Session-timeout note:** free-tier Colab disconnects idle sessions after
+roughly 90 minutes and hard-caps total runtime around 12 hours. Both
+fine-tuning scripts already checkpoint to disk after every epoch that
+improves val accuracy, so a mid-training disconnect only loses the current
+epoch's progress, not the whole run — as long as `checkpoints/` is the Drive
+symlink from step 4, not local disk. To resume, you'd currently need to
+re-run the finetune script from scratch (it doesn't auto-resume from a
+partial checkpoint) — reduce `EPOCHS` in the script if you're working in
+short Colab sessions.
 
 ## Fine-tuning
 
