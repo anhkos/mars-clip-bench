@@ -251,8 +251,7 @@ to those files, at which point this flag starts working with no code changes.
 
 ### Running your assigned model group
 
-If the team is splitting model families across people, you only need to run
-your own group's commands below — the script doesn't care what anyone else
+You only need to run your own group's commands below — the script doesn't care what anyone else
 ran. Do the one-time setup first (clone → venv → `pip install -r requirements.txt`
 → `python scripts/download_data.py --dataset all` → `python finetune/make_hirise_splits.py`),
 then:
