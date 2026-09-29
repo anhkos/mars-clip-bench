@@ -1,34 +1,89 @@
 class_id,class_name,query_text
-0,other,a photo of other Mars terrain with no notable features
-0,other,a photo of a generic Martian surface with no landmarks
-0,other,a photo of unremarkable Mars ground from orbit
-0,other,a satellite image of flat featureless Martian terrain
-1,crater,a photo of a crater on Mars
-1,crater,a photo of a circular impact crater on the Martian surface
-1,crater,a satellite image of a bowl-shaped crater on Mars
-1,crater,a photo of a round depression from a meteorite impact on Mars
-1,crater,a photo of a Mars impact crater with raised rim and bowl interior
-2,dark dune,a photo of a dark dune on Mars
-2,dark dune,a photo of dark sand dunes on the Martian surface
-2,dark dune,a satellite image of dark basaltic dunes on Mars
-2,dark dune,a photo of dark wind-blown sand dunes on Mars from above
-3,slope streak,a photo of a slope streak on Mars
-3,slope streak,a photo of a dark streak running down a Martian slope
-3,slope streak,a satellite image of a long dark streak on a Mars hillside
-3,slope streak,a photo of a dark flow streak on a Martian incline from orbit
-4,bright dune,a photo of a bright dune on Mars
-4,bright dune,a photo of light-colored sand dunes on the Martian surface
-4,bright dune,a satellite image of bright wind-formed dunes on Mars
-4,bright dune,a photo of pale sandy dunes on Mars seen from above
-5,impact ejecta,a photo of impact ejecta on Mars
-5,impact ejecta,a photo of debris ejected from a Mars impact crater
-5,impact ejecta,a satellite image of crater ejecta patterns on the Martian surface
-5,impact ejecta,a photo of material blasted outward from a Mars crater
-6,swiss cheese,a photo of swiss cheese terrain on Mars
-6,swiss cheese,a photo of pitted swiss cheese carbon dioxide ice on Mars south pole
-6,swiss cheese,a satellite image of swiss cheese shaped pits in Martian polar ice
-6,swiss cheese,a photo of irregular holes eroded into Martian dry ice from above
-7,spider,a photo of a spider on Mars
-7,spider,a photo of a Mars spider formation with radial channels
-7,spider,a satellite image of spider-shaped gas venting channels on the Martian south pole
-7,spider,a photo of radial dendritic spider channels carved in Martian polar terrain
+1,crater,Find some images of radial patterns surrounding Martian craters.
+1,crater,Show me circular depressions from meteor impacts on Mars.
+1,crater,Can you find some images of large bowl-shaped impact craters on Mars?
+1,crater,Could you find terrain with evidence of past meteorite collisions?
+1,crater,Can you locate ancient impact-eroded structures revealing Mars� climate history?
+1,crater,"Could you identify images of landforms shaped by impacts, erosion, and subsurface composition?"
+1,crater,Show me circular depressions preserving sedimentary climate records.
+1,crater,Find some images of meteorite impact evidence on Mars.
+1,crater,Could you locate surface features formed by meteorite collisions?
+2,dark dune,Could you locate aeolian structures in Syrtis Major shaped by volcanic activity and wind?
+2,dark dune,Find some images of Martian sand dunes.
+2,dark dune,Show me completely defrosted images of Martian sand dunes.
+2,dark dune,Can you find wind-shaped dunes reflecting sunlight?
+2,dark dune,Can you find some images of wind-sculpted sand formations with low albedo?
+2,dark dune,Could you locate basaltic sand formations on Mars?
+2,dark dune,Show me volcanic sand features rich in iron and magnesium.
+3,slope streak,Please find some images of narrow dark lines on steep Martian slopes.
+3,slope streak,Find some images of recent dust or material sliding activity on Martian hills?
+3,slope streak,Could you track recurring slope features fading due to dust settling (HiRISE-observed)?
+3,slope streak,Is there any image of slope formation aligned with dry granular flow mechanisms?
+3,slope streak,Find some images of dark flow-like features on Martian slopes.
+3,slope streak,Could you locate dark streaks from dust movement on slopes?
+3,slope streak,Show me bright dust slides revealing darker subsurface layers.
+3,slope streak,Can you find image like slope formations caused by dry dust displacement?
+3,slope streak,Could you find some images of high-resolution dark streaks on Martian slopes.
+3,slope streak,Could you track surface brightness changes due to dust sliding?
+3,slope streak,Find some images of terrain where dust movement exposes darker subsurface?
+3,slope streak,Show me Martian slopes with dust avalanche streaks.
+3,slope streak,Can you find time-lapse sequences of dark streak formation on slopes?
+4,bright dune,"Find some images of Martian sand dunes showing seasonal color variations (lighter in winter, darker in summer)."
+4,bright dune,Could you find frost-covered Martian dunes darkening in summer due to surface-atmosphere interactions?
+4,bright dune,Can you find seasonal Martian features lightening in winter and darkening in summer?
+4,bright dune,Show me lighter-colored sand formations on Mars.
+4,bright dune,Can you find sunlight-reflecting sandy regions on Mars?
+4,bright dune,Find some images of high-albedo sand formations on Mars.
+4,bright dune,Find some images of Martian sand dunes.
+4,bright dune,Could you find partially defrosted Martian sand dunes?
+4,bright dune,Can you find some image of dunes with residual ice creating albedo contrasts?
+4,bright dune,Can you find some images of frost-covered sand dunes reflecting sunlight?
+4,bright dune,Could you find some images of dunes appearing lighter due to seasonal ice?
+4,bright dune,Could you locate high-reflectivity regions on Mars?
+4,bright dune,Show me sand deposits with residual frost.
+4,bright dune,Can you find wind-shaped dunes reflecting sunlight?
+5,impact ejecta,Find me images of radial debris deposits around Martian craters formed by meteorite collisions?
+5,impact ejecta,Can you retrieve debris patterns around meteor impact sites on Mars?
+5,impact ejecta,Show me material ejected from collision points on Mars.
+5,impact ejecta,Find some images of radial patterns surrounding Martian craters.
+5,impact ejecta,Show me circular depressions from meteor impacts on Mars.
+5,impact ejecta,Can you find some images of large bowl-shaped impact craters on Mars?
+5,impact ejecta,Could you find terrain with evidence of past meteorite collisions?
+5,impact ejecta,"Could you identify images of landforms shaped by impacts, erosion, and subsurface composition?"
+5,impact ejecta,Find some images of meteorite impact evidence on Mars.
+5,impact ejecta,Could you locate surface features formed by meteorite collisions?
+5,impact ejecta,Show me debris patterns from meteorite impacts.
+5,impact ejecta,Can you find scattered material around Martian impact sites?
+5,impact ejecta,Find some high-resolution surface image disturbances from impacts?
+5,impact ejecta,Could you identify terrain pictures with material displaced by impacts?
+5,impact ejecta,Show me radial patterns or disturbed terrain near craters.
+5,impact ejecta,Can you find surface markings images from high-energy meteorite collisions?
+5,impact ejecta,Could you find some images of planetary surface modifications from asteroid/meteorite impacts?
+5,impact ejecta,Could you locate regions with material ejected by impacts?
+6,swiss cheese,Can you find some images of expanding pits in Martian polar regions caused by seasonal carbon dioxide ice changes?
+6,swiss cheese,Is there any pattern of annual expansion in flat-floored pits in carbon dioxide ice that expose older water ice layers?
+6,swiss cheese,Could you please find pictures of round depressions in the carbon dioxide ice near Mars' south pole?
+6,swiss cheese,Show me images of circular pits in Mars' polar ice caps.
+6,swiss cheese,Show me circular depressions preserving sedimentary climate records.
+6,swiss cheese,Can you find some terrain features shaped by gas escaping through ice layers?
+6,swiss cheese,Could you identify images of sublimation-driven patterns on Mars' polar surface?
+6,swiss cheese,Could you locate landforms patterns caused by CO2 escaping beneath ice?
+6,swiss cheese,Could you locate circular depressions from solar heating of polar ice?
+6,swiss cheese,Can you find pits expanding due to seasonal temperature changes?
+6,swiss cheese,"Find some image where landscapes shaped by frozen CO2 removal,"
+6,swiss cheese,Could you locate smooth-edged polar ice depressions on Mars?
+6,swiss cheese,Can you find pits evolving due to seasonal climate variations?
+6,swiss cheese,Could you identify surface textures from melting/retreating CO2 ice?
+6,swiss cheese,Show me landforms caused by sublimating carbon dioxide.
+7,spider,Can you find some images of expanding pits in Martian polar regions caused by seasonal carbon dioxide ice changes?
+7,spider,Could you please find pictures of round depressions in the carbon dioxide ice near Mars' south pole?
+7,spider,"Can you find narrow, fan-shaped dust avalanche features on Martian slopes?"
+7,spider,"Show me radial, web-like grooves in Mars' polar regions."
+7,spider,Can you find CO2 gas-fractured trough networks in Mars� south polar ice?
+7,spider,Find some images of dynamic CO2 ice-sunlight-pressure interactions in Mars� south pole?
+7,spider,Can you find formations created by seasonal CO2 gas jets?
+7,spider,Could you identify images of sublimation-driven patterns on Mars' polar surface?
+7,spider,Show me radial structures in Mars� south pole.
+7,spider,Can you find surface patterns linked to seasonal CO2 gas activity?
+7,spider,Show me landforms caused by sublimating carbon dioxide.
+7,spider,Could you locate high-reflectivity regions on Mars?

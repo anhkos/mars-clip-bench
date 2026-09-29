@@ -15,179 +15,179 @@ class_id,class_name,query_text
 1,APXS calibration target,a photo of a calibration tile used for the alpha particle spectrometer
 1,APXS calibration target,a photo of a calibration disc mounted on the Mars rover body
 1,APXS calibration target,a close-up photo of a round reference target for APXS instrument
-2,Artifact,a photo with a visual artifact or camera distortion
-2,Artifact,a photograph showing image noise or a camera artifact on Mars
-2,Artifact,an image with digital distortion or visual anomaly
-2,Artifact,a photo showing compression artifacts or sensor noise
-2,Artifact,a photo showing a corrupted or glitched Mars camera image
-2,Artifact,a photograph with visual noise or transmission errors
-2,Artifact,a photo of a corrupted image from a Mars rover camera
-2,Artifact,a Mars image with visible electronic noise or camera malfunction
-3,ChemCam calibration target,a photo of the ChemCam calibration target
-3,ChemCam calibration target,a photograph of the ChemCam reference calibration disc
-3,ChemCam calibration target,an image of the ChemCam laser calibration target on a rover
-3,ChemCam calibration target,a Mars rover photo showing the ChemCam calibration target
-3,ChemCam calibration target,a photo of a round calibration disc with colored sections on a rover
-3,ChemCam calibration target,a photo of the ChemCam reference block attached to the rover mast
-3,ChemCam calibration target,a photo of colorful calibration chips used for ChemCam laser alignment
-3,ChemCam calibration target,a close-up photo of the ChemCam calibration target color rings
-4,CheMin inlet open,a photo of the CheMin instrument inlet open on a rover
-4,CheMin inlet open,a photograph of the CheMin sample inlet port open
-4,CheMin inlet open,an image of the open inlet of the CheMin mineralogy instrument
-4,CheMin inlet open,a Mars rover photo showing the CheMin inlet open
-4,CheMin inlet open,a photo of the funnel-shaped CheMin inlet opening on the rover deck
-4,CheMin inlet open,a photo of the open sample analysis port on a Mars rover
-4,CheMin inlet open,a photo of a rover instrument intake door in the open position
-4,CheMin inlet open,a close-up photo of the CheMin sample inlet funnel accepting powder
-5,Close-up rock,a photo of a close-up Martian rock
-5,Close-up rock,a photograph of a rock surface on Mars taken up close
-5,Close-up rock,an image of the detailed texture of a Martian rock
-5,Close-up rock,a close-up photo of a rock on the surface of Mars
-5,Close-up rock,a macro photo of a rough Martian boulder surface
-5,Close-up rock,a photo of coarse rock texture on the Martian surface
-5,Close-up rock,a photo of a dark basaltic rock on Mars taken at close range
-5,Close-up rock,a close-up photograph of mineral grains on a Martian rock face
-6,Distant landscape,a photo of a distant Martian landscape
-6,Distant landscape,a photograph of the far Martian terrain and hills
-6,Distant landscape,an image of a wide view of the Mars landscape in the distance
-6,Distant landscape,a Mars rover photo showing a distant rocky landscape
-6,Distant landscape,a photo of the horizon line with distant Martian mountains
-6,Distant landscape,a wide-angle photo of flat red terrain stretching to distant hills
-6,Distant landscape,a photo of layered buttes and mesas visible on the far Martian surface
-6,Distant landscape,a panoramic Mars photo showing kilometers of open terrain
-7,Drill,a photo of the drill on a Mars rover
-7,Drill,a photograph of the Curiosity rover drill mechanism
-7,Drill,an image of the rover drill bit and turret
-7,Drill,a photo of the Mars rover drilling hardware
-7,Drill,a close-up photo of a power drill on the Curiosity rover
-7,Drill,a photo of the rover percussion drill attached to a robotic arm
-7,Drill,a photo of the drill turret and bit assembly on a Mars rover arm
-7,Drill,a close-up photo of the Curiosity rover drill bit tip
-8,Drill hole,a photo of a drill hole in Martian rock
-8,Drill hole,a photograph of a circular borehole drilled into Mars bedrock
-8,Drill hole,an image of a drill sample hole in a Martian rock surface
-8,Drill hole,a photo of a hole drilled by the Curiosity rover into rock
-8,Drill hole,a close-up photo of a borehole in Martian stone
-8,Drill hole,a photo of a grey powder-rimmed hole drilled into reddish Mars rock
-8,Drill hole,a photo of a cylindrical borehole with rock dust around it on Mars
-8,Drill hole,a close-up photo of a drill core sample hole in Martian mudstone
-9,DRT,a photo of the dust removal tool on a Mars rover
-9,DRT,a photograph of the DRT wire brush on the rover arm
-9,DRT,an image of the dust removal tool attached to a rover
-9,DRT,a Mars rover photo showing the dust removal tool brush
-9,DRT,a photo of the rotating wire brush for removing Martian dust from rocks
-9,DRT,a photo of the rover dust removal brush head mounted on a turret
-9,DRT,a close-up photo of the DRT circular brush tool on a Mars rover arm
-9,DRT,a photo of the dust removal tool positioned over a flat Mars rock
-10,DRT spot,a photo of a rock surface cleaned by the dust removal tool
-10,DRT spot,a photograph of a brushed circular area on a Martian rock
-10,DRT spot,an image of a DRT brushed spot on a Mars rock surface
-10,DRT spot,a close-up photo of a freshly brushed rock surface on Mars
-10,DRT spot,a photo of a circular clean patch where dust was removed from Mars rock
-10,DRT spot,a photo showing the revealed fresh rock surface after DRT brushing
-10,DRT spot,a close-up photo of a Mars rock with a circular brushed clean zone
-10,DRT spot,a photo of the distinct circular mark left by the dust removal tool on rock
-11,Float,a photo of a loose rock on the Martian surface
-11,Float,a photograph of an isolated rock sitting on Martian soil
-11,Float,an image of a displaced rock on the surface of Mars
-11,Float,a Mars rover photo showing a loose float rock on soil
-11,Float,a photo of a standalone rock fragment resting on red Martian ground
-11,Float,a photo of a solitary boulder sitting on flat Mars terrain
-11,Float,a close-up photo of a detached rock piece on sandy Martian soil
-11,Float,a photo of a rounded pebble or stone resting apart from bedrock on Mars
-12,Ground,a photo of the Martian ground with soil and pebbles
-12,Ground,a photograph of Mars soil and small rocks on the surface
-12,Ground,an image of sandy Martian ground with gravel
-12,Ground,a close-up photo of the Martian surface dirt and pebbles
-12,Ground,a photo of dusty Martian soil and small stones
-12,Ground,a photo of reddish regolith and scattered pebbles on the Mars surface
-12,Ground,a photo of fine red Martian dust and small rocks on the ground
-12,Ground,a close-up photo of the sandy pebbly Martian soil near the rover
-13,Horizon,a photo of the Martian horizon and sky
-13,Horizon,a photograph of the Martian skyline
-13,Horizon,an image of the horizon on Mars with sky above
-13,Horizon,a wide photo showing the edge of the Martian surface meeting the sky
-13,Horizon,a Mars rover photo looking out toward the distant horizon
-13,Horizon,a photo of the pale pinkish Martian sky above a flat rocky horizon
-13,Horizon,a wide photo of the Mars terrain extending to a flat distant skyline
-13,Horizon,a photo looking across the Martian surface with the horizon cutting across
-14,Inlet,a photo of an instrument inlet on a Mars rover
-14,Inlet,a photograph of a sample inlet port on the Curiosity rover
-14,Inlet,an image of the inlet opening on a Mars rover instrument
-14,Inlet,a Mars rover photo showing an instrument intake port
-14,Inlet,a photo of a dark rectangular opening receiving samples on a Mars rover
-14,Inlet,a photo of a funnel or tube entry port on rover science hardware
-14,Inlet,a close-up photo of a sample collection inlet on the rover body
-14,Inlet,a photo of an open intake hole on a Mars rover science instrument
-15,Layers,a photo of layered rock formations on Mars
-15,Layers,a photograph of sedimentary rock layers on the Martian surface
-15,Layers,an image of stratified rock strata on Mars
-15,Layers,a close-up photo of geological layers in Martian rock
-15,Layers,a photo of ancient horizontal sedimentary strata in Martian cliff rock
-15,Layers,a photo of banded mudstone layers exposed on a Mars rock face
-15,Layers,a close-up photo of flat laminated rock layers on a Martian outcrop
-15,Layers,a photo of thinly bedded rock layers with distinct horizontal banding on Mars
-16,Light-toned veins,a photo of bright mineral veins in Martian rock
-16,Light-toned veins,a photograph of white calcium sulfate veins in Mars rock
-16,Light-toned veins,an image of light-colored mineral deposits running through dark rock
-16,Light-toned veins,a close-up photo of bright veins cutting through Martian bedrock
-16,Light-toned veins,a photo of pale white crystalline veins in dark Martian stone
-16,Light-toned veins,a photo of bright thin mineral lines running through a reddish Mars rock
-16,Light-toned veins,a close-up photo of light sulfate veins in a dark Martian rock surface
-16,Light-toned veins,a photo of white mineral-filled fractures cutting through dark Mars bedrock
-17,MAHLI,a photo of the MAHLI camera on a Mars rover
-17,MAHLI,a photograph of the Mars Hand Lens Imager on a rover arm
-17,MAHLI,an image of the MAHLI close-up camera instrument
-17,MAHLI,a Mars rover photo showing the MAHLI lens and camera body
-17,MAHLI,a photo of the circular macro lens of the MAHLI instrument on a rover turret
-17,MAHLI,a photo of the hand lens imager attached to the end of the rover arm
-17,MAHLI,a close-up photo of the MAHLI camera lens assembly on a Mars rover
-17,MAHLI,a photo of the MAHLI instrument body positioned near the Martian surface
-18,MAHLI calibration target,a photo of the MAHLI calibration target
-18,MAHLI calibration target,a photograph of the Mars Hand Lens Imager calibration reference
-18,MAHLI calibration target,an image of the MAHLI calibration disc on the rover
-18,MAHLI calibration target,a Mars rover photo showing the MAHLI calibration reference
-18,MAHLI calibration target,a photo of a color chip calibration card for the MAHLI camera
-18,MAHLI calibration target,a photo of the MAHLI focus and color calibration reference mounted on the rover
-18,MAHLI calibration target,a close-up photo of the MAHLI calibration target with color swatches and ruler
-18,MAHLI calibration target,a photo of a geometric calibration tile used by the Mars hand lens imager
-19,Mastcam,a photo of the Mastcam camera on a Mars rover
-19,Mastcam,a photograph of the mast-mounted camera system on Curiosity
-19,Mastcam,an image of the Mastcam camera assembly on the rover mast
-19,Mastcam,a Mars rover photo showing the Mastcam camera lenses
-19,Mastcam,a photo of the boxy rectangular Mastcam camera head on a rover mast
-19,Mastcam,a photo of the dual Mastcam stereo camera system on the Curiosity mast
-19,Mastcam,a close-up photo of the Mastcam lens assembly on a tall rover mast
-19,Mastcam,a photo of the mast camera electronics box with dual lenses pointing outward
-20,Mastcam calibration target,a photo of the Mastcam calibration target
-20,Mastcam calibration target,a photograph of the Mastcam color calibration reference
-20,Mastcam calibration target,an image of the Mastcam calibration disc with color chips
-20,Mastcam calibration target,a Mars rover photo showing the Mastcam calibration target
-20,Mastcam calibration target,a photo of a round calibration disc with color swatches on a rover deck
-20,Mastcam calibration target,a photo of the Mastcam sundial calibration reference target
-20,Mastcam calibration target,a close-up photo of the Mastcam color calibration rings on a rover
-20,Mastcam calibration target,a photo of a circular color calibration disc mounted on the Mars rover body
-21,Nearby surface,a photo of the nearby Martian surface with rocks and terrain
-21,Nearby surface,a photograph of the immediate surrounding terrain on Mars
-21,Nearby surface,an image of the Martian ground and nearby rocks
-21,Nearby surface,a Mars rover photo showing the ground and rocks nearby
-21,Nearby surface,a photo of the rocky terrain immediately in front of the rover
-21,Nearby surface,a photo of small rocks and pebbles on the Mars surface near the rover
-21,Nearby surface,a photo of the close Martian terrain with soil and scattered stones
-21,Nearby surface,a photo of the medium-distance Mars ground with rocks and dust around the rover
-23,Observation tray,a photo of the rover observation tray
-23,Observation tray,a photograph of the flat observation tray on a Mars rover
-23,Observation tray,an image of the rover tray used for examining samples
-23,Observation tray,a Mars rover photo showing the observation tray surface
-23,Observation tray,a photo of the flat metallic sample examination tray on a Mars rover deck
-23,Observation tray,a photo of the shallow rectangular observation platform on a rover
-23,Observation tray,a close-up photo of the rover observation tray holding a rock sample
-23,Observation tray,a photo of the Curiosity rover observation tray with sample material on it
-24,Portion box,a photo of the rover sample portion box
-24,Portion box,a photograph of the sample storage box on a Mars rover
-24,Portion box,an image of the portion box container on the Curiosity rover
-24,Portion box,a Mars rover photo showing the portion box storage unit
-24,Portion box,a photo of the rectangular sample container on the rover body
-24,Portion box,a photo of the Curiosity rover portion box where drilled rock samples are stored
-24,Portion box,a close-up photo of the sample portion storage unit mounted on a Mars rover
-24,Portion box,a photo of a small rectangular box on a rover used to hold rock core portions
+2,ChemCam calibration target,a photo of the ChemCam calibration target
+2,ChemCam calibration target,a photograph of the ChemCam reference calibration disc
+2,ChemCam calibration target,an image of the ChemCam laser calibration target on a rover
+2,ChemCam calibration target,a Mars rover photo showing the ChemCam calibration target
+2,ChemCam calibration target,a photo of a round calibration disc with colored sections on a rover
+2,ChemCam calibration target,a photo of the ChemCam reference block attached to the rover mast
+2,ChemCam calibration target,a photo of colorful calibration chips used for ChemCam laser alignment
+2,ChemCam calibration target,a close-up photo of the ChemCam calibration target color rings
+3,CheMin inlet open,a photo of the CheMin instrument inlet open on a rover
+3,CheMin inlet open,a photograph of the CheMin sample inlet port open
+3,CheMin inlet open,an image of the open inlet of the CheMin mineralogy instrument
+3,CheMin inlet open,a Mars rover photo showing the CheMin inlet open
+3,CheMin inlet open,a photo of the funnel-shaped CheMin inlet opening on the rover deck
+3,CheMin inlet open,a photo of the open sample analysis port on a Mars rover
+3,CheMin inlet open,a photo of a rover instrument intake door in the open position
+3,CheMin inlet open,a close-up photo of the CheMin sample inlet funnel accepting powder
+4,Drill,a photo of the drill on a Mars rover
+4,Drill,a photograph of the Curiosity rover drill mechanism
+4,Drill,an image of the rover drill bit and turret
+4,Drill,a photo of the Mars rover drilling hardware
+4,Drill,a close-up photo of a power drill on the Curiosity rover
+4,Drill,a photo of the rover percussion drill attached to a robotic arm
+4,Drill,a photo of the drill turret and bit assembly on a Mars rover arm
+4,Drill,a close-up photo of the Curiosity rover drill bit tip
+5,Drill hole,a photo of a drill hole in Martian rock
+5,Drill hole,a photograph of a circular borehole drilled into Mars bedrock
+5,Drill hole,an image of a drill sample hole in a Martian rock surface
+5,Drill hole,a photo of a hole drilled by the Curiosity rover into rock
+5,Drill hole,a close-up photo of a borehole in Martian stone
+5,Drill hole,a photo of a grey powder-rimmed hole drilled into reddish Mars rock
+5,Drill hole,a photo of a cylindrical borehole with rock dust around it on Mars
+5,Drill hole,a close-up photo of a drill core sample hole in Martian mudstone
+6,DRT front,a photo of the dust removal tool viewed from the front
+6,DRT front,a photograph of the DRT wire brush facing the camera
+6,DRT front,an image of the front of the dust removal tool on a rover arm
+6,DRT front,a Mars rover photo showing the DRT head from the front
+6,DRT front,a photo of the dust removal tool brush facing outward on the turret
+6,DRT front,a photo of the circular DRT bristles seen straight on
+6,DRT front,a close-up photo of the front of the dust removal tool
+6,DRT front,"a photo of the DRT mounted on the rover arm, front view"
+7,DRT side,a photo of the dust removal tool viewed from the side
+7,DRT side,a photograph of the DRT wire brush in profile
+7,DRT side,an image of the dust removal tool seen from a side angle
+7,DRT side,a Mars rover photo showing the DRT mounted on the turret from the side
+7,DRT side,a photo of the dust removal tool's profile on the robotic arm
+7,DRT side,a photo of the DRT brush head viewed edge-on
+7,DRT side,a close-up photo of the side of the dust removal tool
+7,DRT side,a photo of the DRT positioned sideways over a rock target
+8,Ground,a photo of the Martian ground with soil and pebbles
+8,Ground,a photograph of Mars soil and small rocks on the surface
+8,Ground,an image of sandy Martian ground with gravel
+8,Ground,a close-up photo of the Martian surface dirt and pebbles
+8,Ground,a photo of dusty Martian soil and small stones
+8,Ground,a photo of reddish regolith and scattered pebbles on the Mars surface
+8,Ground,a photo of fine red Martian dust and small rocks on the ground
+8,Ground,a close-up photo of the sandy pebbly Martian soil near the rover
+9,Horizon,a photo of the Martian horizon and sky
+9,Horizon,a photograph of the Martian skyline
+9,Horizon,an image of the horizon on Mars with sky above
+9,Horizon,a wide photo showing the edge of the Martian surface meeting the sky
+9,Horizon,a Mars rover photo looking out toward the distant horizon
+9,Horizon,a photo of the pale pinkish Martian sky above a flat rocky horizon
+9,Horizon,a wide photo of the Mars terrain extending to a flat distant skyline
+9,Horizon,a photo looking across the Martian surface with the horizon cutting across
+10,Inlet,a photo of an instrument inlet on a Mars rover
+10,Inlet,a photograph of a sample inlet port on the Curiosity rover
+10,Inlet,an image of the inlet opening on a Mars rover instrument
+10,Inlet,a Mars rover photo showing an instrument intake port
+10,Inlet,a photo of a dark rectangular opening receiving samples on a Mars rover
+10,Inlet,a photo of a funnel or tube entry port on rover science hardware
+10,Inlet,a close-up photo of a sample collection inlet on the rover body
+10,Inlet,a photo of an open intake hole on a Mars rover science instrument
+11,MAHLI,a photo of the MAHLI camera on a Mars rover
+11,MAHLI,a photograph of the Mars Hand Lens Imager on a rover arm
+11,MAHLI,an image of the MAHLI close-up camera instrument
+11,MAHLI,a Mars rover photo showing the MAHLI lens and camera body
+11,MAHLI,a photo of the circular macro lens of the MAHLI instrument on a rover turret
+11,MAHLI,a photo of the hand lens imager attached to the end of the rover arm
+11,MAHLI,a close-up photo of the MAHLI camera lens assembly on a Mars rover
+11,MAHLI,a photo of the MAHLI instrument body positioned near the Martian surface
+12,MAHLI calibration target,a photo of the MAHLI calibration target
+12,MAHLI calibration target,a photograph of the Mars Hand Lens Imager calibration reference
+12,MAHLI calibration target,an image of the MAHLI calibration disc on the rover
+12,MAHLI calibration target,a Mars rover photo showing the MAHLI calibration reference
+12,MAHLI calibration target,a photo of a color chip calibration card for the MAHLI camera
+12,MAHLI calibration target,a photo of the MAHLI focus and color calibration reference mounted on the rover
+12,MAHLI calibration target,a close-up photo of the MAHLI calibration target with color swatches and ruler
+12,MAHLI calibration target,a photo of a geometric calibration tile used by the Mars hand lens imager
+13,Mastcam,a photo of the Mastcam camera on a Mars rover
+13,Mastcam,a photograph of the mast-mounted camera system on Curiosity
+13,Mastcam,an image of the Mastcam camera assembly on the rover mast
+13,Mastcam,a Mars rover photo showing the Mastcam camera lenses
+13,Mastcam,a photo of the boxy rectangular Mastcam camera head on a rover mast
+13,Mastcam,a photo of the dual Mastcam stereo camera system on the Curiosity mast
+13,Mastcam,a close-up photo of the Mastcam lens assembly on a tall rover mast
+13,Mastcam,a photo of the mast camera electronics box with dual lenses pointing outward
+14,Mastcam calibration target,a photo of the Mastcam calibration target
+14,Mastcam calibration target,a photograph of the Mastcam color calibration reference
+14,Mastcam calibration target,an image of the Mastcam calibration disc with color chips
+14,Mastcam calibration target,a Mars rover photo showing the Mastcam calibration target
+14,Mastcam calibration target,a photo of a round calibration disc with color swatches on a rover deck
+14,Mastcam calibration target,a photo of the Mastcam sundial calibration reference target
+14,Mastcam calibration target,a close-up photo of the Mastcam color calibration rings on a rover
+14,Mastcam calibration target,a photo of a circular color calibration disc mounted on the Mars rover body
+15,Observation tray,a photo of the rover observation tray
+15,Observation tray,a photograph of the flat observation tray on a Mars rover
+15,Observation tray,an image of the rover tray used for examining samples
+15,Observation tray,a Mars rover photo showing the observation tray surface
+15,Observation tray,a photo of the flat metallic sample examination tray on a Mars rover deck
+15,Observation tray,a photo of the shallow rectangular observation platform on a rover
+15,Observation tray,a close-up photo of the rover observation tray holding a rock sample
+15,Observation tray,a photo of the Curiosity rover observation tray with sample material on it
+16,Portion box,a photo of the rover sample portion box
+16,Portion box,a photograph of the sample storage box on a Mars rover
+16,Portion box,an image of the portion box container on the Curiosity rover
+16,Portion box,a Mars rover photo showing the portion box storage unit
+16,Portion box,a photo of the rectangular sample container on the rover body
+16,Portion box,a photo of the Curiosity rover portion box where drilled rock samples are stored
+16,Portion box,a close-up photo of the sample portion storage unit mounted on a Mars rover
+16,Portion box,a photo of a small rectangular box on a rover used to hold rock core portions
+17,Portion tube,a photo of a sample portion tube on a Mars rover
+17,Portion tube,a photograph of the tube used to portion collected sample material
+17,Portion tube,an image of a portion tube held by the rover's arm
+17,Portion tube,a Mars rover photo showing a portion tube for sample handling
+17,Portion tube,a photo of a cylindrical tube positioned above the observation tray
+17,Portion tube,a photo of the rover arm holding a sample portion tube
+17,Portion tube,a close-up photo of a portion tube used in sample processing
+17,Portion tube,a photo of a tube used to deliver powdered sample to an instrument
+18,Portion tube opening,a photo of the open end of a sample portion tube
+18,Portion tube opening,a photograph of the opening of a portion tube on a Mars rover
+18,Portion tube opening,an image of the portion tube opening during sample delivery
+18,Portion tube opening,a close-up photo of a portion tube's opening on Curiosity
+18,Portion tube opening,a photo of the mouth of a portion tube above a collection target
+18,Portion tube opening,a photo of sample material falling from a portion tube opening
+18,Portion tube opening,a close-up photo of the tip of an open portion tube
+18,Portion tube opening,a photo of a rover portion tube dispensing powder through its opening
+19,REMS-UV sensor,a photo of the REMS ultraviolet sensor on a Mars rover
+19,REMS-UV sensor,a photograph of the Rover Environmental Monitoring Station UV sensor
+19,REMS-UV sensor,an image of the REMS-UV sensor mounted on the rover deck
+19,REMS-UV sensor,a Mars rover photo showing the REMS ultraviolet sensor
+19,REMS-UV sensor,a photo of a small UV photodiode sensor fixture on the rover body
+19,REMS-UV sensor,a close-up photo of the REMS-UV sensor housing
+19,REMS-UV sensor,a photo of the environmental monitoring station's UV detector on Curiosity
+19,REMS-UV sensor,a photo of a compact ultraviolet sensor mounted on the rover chassis
+20,Rover rear deck,a photo of the rear deck of a Mars rover
+20,Rover rear deck,a photograph of the back deck of the Curiosity rover body
+20,Rover rear deck,an image of the rover's rear deck hardware
+20,Rover rear deck,a Mars rover photo showing the rear deck of the rover
+20,Rover rear deck,a photo of equipment mounted on the rear section of the rover chassis
+20,Rover rear deck,a photo of the Curiosity rover viewed from behind showing its rear deck
+20,Rover rear deck,a close-up photo of hardware on the rover's back deck
+20,Rover rear deck,a photo of the rover body's rear deck surface and mounted components
+21,Scoop,a photo of the sample scoop on a Mars rover
+21,Scoop,a photograph of the scoop tool used to collect loose Martian soil
+21,Scoop,an image of the rover's scoop mounted on the arm turret
+21,Scoop,a Mars rover photo showing the sample collection scoop
+21,Scoop,a photo of a metal scoop digging into sandy Martian ground
+21,Scoop,a photo of the rover scoop filled with loose Martian regolith
+21,Scoop,a close-up photo of the scoop blade on the Curiosity rover arm
+21,Scoop,a photo of the sample scoop tool positioned over loose soil
+23,Turret,a photo of the instrument turret on a Mars rover's robotic arm
+23,Turret,"a photograph of the turret holding MAHLI, APXS, drill, and DRT"
+23,Turret,an image of the rover arm's turret with mounted instruments
+23,Turret,a Mars rover photo showing the instrument turret up close
+23,Turret,a photo of the multi-tool turret assembly at the end of a rover arm
+23,Turret,a photo of the rotating turret with several science instruments attached
+23,Turret,a close-up photo of the Curiosity rover's instrument turret
+23,Turret,a photo of the robotic arm's turret head with tools mounted around it
+24,Wheel,a photo of a wheel on a Mars rover
+24,Wheel,a photograph of one of the Curiosity rover's six wheels
+24,Wheel,an image of a rover wheel showing wear on the Martian surface
+24,Wheel,a Mars rover photo showing a wheel and its tread pattern
+24,Wheel,a photo of a metal rover wheel partially sunk into Martian sand
+24,Wheel,a close-up photo of damage and holes in a Curiosity rover wheel
+24,Wheel,a photo of a rover wheel's tread pattern pressed into Martian soil
+24,Wheel,a photo of one of the rover's aluminum wheels on rocky terrain

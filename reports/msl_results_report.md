@@ -1,5 +1,16 @@
 # MSL Image Retrieval — Model Evaluation Report
 
+> **⚠️ STALE — class labels below are wrong, do not trust these numbers (flagged 2026-09-19).**
+> `finetune/finetune_clip.py`'s `CLASS_NAMES` dict used a fabricated/blended taxonomy that diverges
+> from the real `msl_synset_words-indexed.txt` (Zenodo 1049137) almost everywhere past class id 1.
+> Confirmed directly against the dataset's own label files: id 8 (reported here as "Drill hole",
+> 2,684 images / ~40%) is actually **"ground"** — a far more plausible majority class for a rover
+> camera than drill holes. Most class-accuracy rows below, and the narrative conclusions built on
+> them (class imbalance story, "Drill vs Drill hole confusion", etc.), are keyed to the wrong names.
+> `CLASS_NAMES` and `eval/queries/msl_queries.csv` / `msl_queries_200.csv` / `msl_queries_siglip.csv`
+> have been corrected to match the real 24-class taxonomy — this report has NOT been regenerated
+> against the fix yet. Re-run training + eval before citing any number on this page.
+
 **Model:** CLIP ViT-B/32 (fine-tuned)  
 **Dataset:** MSL Surface Labeled Dataset  
 **Date:** June 2026
