@@ -1,0 +1,97 @@
+class_id,class_name,query_text
+0,APXS,Can you find images of the rover's arm pressed up against a rock to measure its chemistry?
+0,APXS,Could you locate pictures of the alpha particle X-ray spectrometer on the robotic arm?
+0,APXS,Find some images of the rover's elemental-chemistry sensor at the end of the arm.
+0,APXS,Could you identify images where the arm-mounted spectrometer is in contact with the ground?
+1,APXS calibration target,Show me the calibration plate the rover uses to check its APXS readings.
+1,APXS calibration target,Could you locate the reference target mounted on the rover body for APXS checks?
+1,APXS calibration target,I'd like to see the small plate the spectrometer uses to verify its accuracy.
+1,APXS calibration target,Could you identify pictures of the rover's chemistry-sensor calibration disk?
+2,ChemCam calibration target,Show me the calibration target ChemCam fires its laser at.
+2,ChemCam calibration target,Could you locate the set of targets the rover's laser spectrometer calibrates against?
+2,ChemCam calibration target,I want to see the ceramic and glass targets used to check the laser's performance.
+2,ChemCam calibration target,Can you retrieve images from a ChemCam calibration sequence?
+3,CheMin inlet open,What does the open sample door for the mineral-analysis instrument look like?
+3,CheMin inlet open,Could you locate images of the funnel where powdered rock goes into CheMin?
+3,CheMin inlet open,Can you find pictures of sample being delivered into CheMin's open inlet?
+3,CheMin inlet open,Could you identify the open hatch on top of the rover body where CheMin loads samples?
+4,Drill,I'd like to see the rover drilling into a rock.
+4,Drill,Show me the drill deployed against a Martian rock target.
+4,Drill,Find some images of the rover coring into bedrock.
+4,Drill,Is there any image of the drill bit right before it touches down on a target?
+5,Drill hole,Show me the hole left behind after the rover drilled into a rock.
+5,Drill hole,Could you find a close-up of drill tailings around a borehole?
+5,Drill hole,Find some images of multiple drill holes in the same rock target.
+5,Drill hole,Could you identify shots of a drill hole before the sample was collected?
+6,DRT front,What does the dust-brushing tool look like from the front?
+6,DRT front,Could you locate the DRT positioned face-on against a rock?
+6,DRT front,Can you find pictures of the dust removal tool before it starts brushing?
+6,DRT front,Could you identify a front-facing image of the rover's cleaning tool?
+7,DRT side,Show me a side angle of the rover's dust-cleaning tool.
+7,DRT side,Could you find a profile view of the dust removal tool on the turret?
+7,DRT side,"Find some images showing how far the DRT extends from the turret, from a side angle."
+7,DRT side,Is there any image of the DRT's bristles from a lateral viewpoint?
+8,Ground,Show me the dirt right underneath the rover.
+8,Ground,Could you find images of loose regolith beside the rover?
+8,Ground,Find some images of undisturbed Martian ground before the rover drove over it.
+8,Ground,Could you identify shots of the ground showing small pebbles and fine sand?
+9,Horizon,What does the horizon look like from the rover's camera?
+9,Horizon,Could you locate wide shots showing the horizon beyond the crater rim?
+9,Horizon,Can you find pictures looking out toward Mount Sharp on the horizon?
+9,Horizon,Could you identify an image where the horizon is hazy with atmospheric dust?
+10,Inlet,Show me one of the rover's sample intake ports.
+10,Inlet,Could you locate a closed sample inlet on the rover deck?
+10,Inlet,Find some images of the rover's internal sample-delivery hardware.
+10,Inlet,Could you identify a sample port on top of the rover body?
+11,MAHLI,Pull up pictures of the rover's close-up hand-lens camera.
+11,MAHLI,Show me MAHLI taking a close-up photo of a rock's texture.
+11,MAHLI,Find some images of MAHLI positioned just above a target surface.
+11,MAHLI,Can you retrieve a shot of MAHLI photographing grain textures on a rock?
+12,MAHLI calibration target,Show me the calibration target the hand-lens camera uses.
+12,MAHLI calibration target,Could you locate the penny used for scale on MAHLI's calibration target?
+12,MAHLI calibration target,I want to see the calibration target mounted near the rover's front.
+12,MAHLI calibration target,Is there any image of the Lincoln penny used for MAHLI calibration?
+13,Mastcam,I want to see the rover's main camera on top of the mast.
+13,Mastcam,Could you locate close-up images of the mast-mounted camera pair?
+13,Mastcam,Find some images of Mastcam's two camera lenses.
+13,Mastcam,"Could you identify a picture taken from below, looking up at Mastcam?"
+14,Mastcam calibration target,Find the calibration target that Mastcam photographs to stay accurate.
+14,Mastcam calibration target,Could you locate the color-reference target on the rover deck for Mastcam?
+14,Mastcam calibration target,Can you find pictures of the small sundial-like calibration target?
+14,Mastcam calibration target,Could you identify an image of Mastcam's calibration target with its shadow visible?
+15,Observation tray,Show me the tray the rover uses to hold a soil sample for photos.
+15,Observation tray,Could you locate the tray where sieved material is displayed for imaging?
+15,Observation tray,Find some images of the empty sample-display tray before a drop.
+15,Observation tray,Could you identify a close-up of material piled on the observation tray?
+16,Portion box,What does the container the rover uses to portion out samples look like?
+16,Portion box,Could you locate the sieving and portioning hardware on the rover's arm?
+16,Portion box,Show me the portion box during a sample-processing sequence.
+16,Portion box,Could you identify an image of the sample processing hardware called CHIMRA?
+17,Portion tube,Show me the tube the rover uses during sample handling.
+17,Portion tube,Could you locate close-ups of the narrow tube used in sample portioning?
+17,Portion tube,Find some images of the tube that channels sample material to the instruments.
+17,Portion tube,Could you identify a shot of the portion tube before a sample pass?
+18,Portion tube opening,Can you find a close-up of the opening on the sample portion tube?
+18,Portion tube opening,Could you locate a picture of the tube's opening with sample grains visible?
+18,Portion tube opening,I'd like to see the opening of the tube right before material is dispensed.
+18,Portion tube opening,"Could you identify an empty, clean shot of the tube's opening?"
+19,REMS-UV sensor,What does the rover's weather station UV sensor look like?
+19,REMS-UV sensor,Could you locate the REMS UV photodiodes on the rover deck?
+19,REMS-UV sensor,Show me the UV sensor as part of the rover's environmental monitoring station.
+19,REMS-UV sensor,Could you identify an image of REMS instrumentation on the rover body?
+20,Rover rear deck,Show me the back of the rover.
+20,Rover rear deck,Could you locate images looking at the rover from behind?
+20,Rover rear deck,Find some images of the rear of the rover with its power source visible.
+20,Rover rear deck,Could you identify a shot of the rear deck hardware layout?
+21,Scoop,Pull up images of the rover scooping up loose dirt.
+21,Scoop,Could you locate pictures of the scoop filled with Martian soil?
+21,Scoop,Find some images of the empty scoop before a sample collection.
+21,Scoop,Could you identify a shot of the scoop lifting material off the ground?
+23,Turret,Find a close-up of all the tools clustered at the end of the robotic arm.
+23,Turret,"Could you locate images showing the drill, brush, and camera all mounted together?"
+23,Turret,Show me the turret fully extended toward a rock target.
+23,Turret,Could you identify an image of the turret from a straight-on angle?
+24,Wheel,Show me one of the rover's wheels.
+24,Wheel,Could you locate close-up images of wheel punctures or tears?
+24,Wheel,Find some images of the rover's aluminum wheels with their pattern tread.
+24,Wheel,Could you identify a shot of a wheel partially embedded in sand?
