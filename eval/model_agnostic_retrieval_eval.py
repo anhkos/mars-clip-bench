@@ -167,12 +167,18 @@ class SiglipEncoder:
             print("  Loaded weights from", checkpoint)
         self.model.to(device).eval()
 
+    @staticmethod
+    def _as_tensor(features):
+        # Newer transformers return a BaseModelOutputWithPooling from get_*_features();
+        # older versions return the projected embedding tensor directly.
+        return features if torch.is_tensor(features) else features.pooler_output
+
     @torch.no_grad()
     def encode_images(self, images, batch_size=32):
         out = []
         for i in range(0, len(images), batch_size):
             inputs = self.processor(images=images[i:i + batch_size], return_tensors="pt").to(self.device)
-            emb = self.model.get_image_features(**inputs)
+            emb = self._as_tensor(self.model.get_image_features(**inputs))
             emb = emb / emb.norm(dim=-1, keepdim=True)
             out.append(emb.cpu().numpy())
         return np.vstack(out).astype(np.float32)
@@ -185,7 +191,7 @@ class SiglipEncoder:
             inputs = self.processor(
                 text=texts[i:i + batch_size], return_tensors="pt", padding="max_length"
             ).to(self.device)
-            emb = self.model.get_text_features(**inputs)
+            emb = self._as_tensor(self.model.get_text_features(**inputs))
             emb = emb / emb.norm(dim=-1, keepdim=True)
             out.append(emb.cpu().numpy())
         return np.vstack(out).astype(np.float32)
